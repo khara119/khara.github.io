@@ -2,7 +2,7 @@
 ## harp.js
 静的サイトジェネレータとしてharp.jsを採用。
 
-`/harp.js`以下のファイルをいじり、`harp compile _harp dist`コマンドを打つと、`/dist/`以下に生成されたファイルが格納される。
+`/harp.js`以下のファイルをいじり、`npm run compile`コマンドを打つと、`/dist/`以下に生成されたファイルが格納される。
 
 `gh-pages`ブランチにはdist以下のファイルをデプロイする。
 
