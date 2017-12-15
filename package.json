@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"deploy": "gh-pages -b master -d dist",
-	"compile": "harp compile _harp dist/"
+    "deploy": "gh-pages -b master -d dist",
+    "compile": "harp compile _harp dist/"
   },
   "repository": {
     "type": "git",

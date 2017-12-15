@@ -1,2 +1,8 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+div.header-title
+	img.icon(src="images/profile_icon.png")
+	div.page-title
+		div.title KHARA's PAGE
+		div.one-line さくせいちゅう
+div.header-tab
+	each value in ["TOP", "BLOG", "CONTACT"]
+		li: div(onClick="")= value
